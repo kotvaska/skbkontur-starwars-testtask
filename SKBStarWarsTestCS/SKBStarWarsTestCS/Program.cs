@@ -49,6 +49,7 @@ namespace SKBStarWarsTestCS
             }
 
             clones.Add(new Clone(1));
+            clones.Add(new Clone(2));
 
             for (int i = 0; i < queries; ++i)
             {

@@ -1,6 +1,0 @@
-A:\Documents\09_VCS\091_Git\SKBStarWars\SKBStarWarsTestCS\SKBStarWarsTestCS\bin\Debug\SKBStarWarsTestCS.exe.config
-A:\Documents\09_VCS\091_Git\SKBStarWars\SKBStarWarsTestCS\SKBStarWarsTestCS\bin\Debug\SKBStarWarsTestCS.exe
-A:\Documents\09_VCS\091_Git\SKBStarWars\SKBStarWarsTestCS\SKBStarWarsTestCS\bin\Debug\SKBStarWarsTestCS.pdb
-A:\Documents\09_VCS\091_Git\SKBStarWars\SKBStarWarsTestCS\SKBStarWarsTestCS\obj\Debug\SKBStarWarsTestCS.csprojResolveAssemblyReference.cache
-A:\Documents\09_VCS\091_Git\SKBStarWars\SKBStarWarsTestCS\SKBStarWarsTestCS\obj\Debug\SKBStarWarsTestCS.exe
-A:\Documents\09_VCS\091_Git\SKBStarWars\SKBStarWarsTestCS\SKBStarWarsTestCS\obj\Debug\SKBStarWarsTestCS.pdb
