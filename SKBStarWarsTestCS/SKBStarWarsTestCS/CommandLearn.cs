@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SKBStarWarsTestCS
 {
-    class CommandLearn : Command
+    class CommandLearn : ICommand
     {
         public String program;
 
@@ -15,7 +15,7 @@ namespace SKBStarWarsTestCS
             this.program = program;
         }
 
-        public void execute(Clone clone)
+        public void Execute(Clone clone)
         {
             clone.AddProgram(this, program);
             Console.WriteLine("Learn {0} {1}", clone.cloneId, program);

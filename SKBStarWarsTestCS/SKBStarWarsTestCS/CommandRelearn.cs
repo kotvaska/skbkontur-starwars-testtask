@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace SKBStarWarsTestCS
 {
-    class CommandRelearn : Command
+    class CommandRelearn : ICommand
     {
-        public void execute(Clone clone)
+        public void Execute(Clone clone)
         {
             if (clone.GetHistory().Count != 0)
             {

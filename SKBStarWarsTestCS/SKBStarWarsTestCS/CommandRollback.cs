@@ -6,14 +6,14 @@ using System.Threading.Tasks;
 
 namespace SKBStarWarsTestCS
 {
-    class CommandRollback : Command
+    class CommandRollback : ICommand
     {
         public CommandRollback()
         {
 
         }
 
-        public void execute(Clone clone)
+        public void Execute(Clone clone)
         {
             clone.RemoveLastProgram();
             Console.WriteLine("Rollback {0}", clone.GetLastProgram());

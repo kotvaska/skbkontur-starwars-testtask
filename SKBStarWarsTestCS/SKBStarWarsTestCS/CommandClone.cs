@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SKBStarWarsTestCS
 {
-    class CommandClone : Command
+    class CommandClone : ICommand
     {
         public Clone newClone;
 
@@ -15,7 +15,7 @@ namespace SKBStarWarsTestCS
 
         }
 
-        public void execute(Clone clone)
+        public void Execute(Clone clone)
         {
             newClone = clone;
             Console.WriteLine("Clone {0}", clone.cloneId);

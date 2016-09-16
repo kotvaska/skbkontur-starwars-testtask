@@ -12,7 +12,7 @@ namespace SKBStarWarsTestCS
         static void Main(string[] args)
         {
             List<Clone> clones = new List<Clone>();
-            List<Command> commands = new List<Command>();
+            List<ICommand> commands = new List<ICommand>();
 
             Random rnd = new Random();
 
@@ -55,7 +55,7 @@ namespace SKBStarWarsTestCS
             {
                 for (int j = 0; j < clones.Count; ++j)
                 {
-                    commands.ElementAt(i).execute(clones.ElementAt(j));
+                    commands.ElementAt(i).Execute(clones.ElementAt(j));
                 }
             }
 

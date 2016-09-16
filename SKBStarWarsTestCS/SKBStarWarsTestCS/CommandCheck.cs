@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace SKBStarWarsTestCS
 {
-    class CommandCheck : Command
+    class CommandCheck : ICommand
     {
         private String lastProgram;
 
-        public void execute(Clone clone)
+        public void Execute(Clone clone)
         {
             lastProgram = clone.GetLastProgram();
             Console.WriteLine("Check {0} {1}", clone.cloneId, GetResult());

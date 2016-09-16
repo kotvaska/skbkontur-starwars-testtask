@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace SKBStarWarsTestCS
 {
-    interface Command
+    interface ICommand
     {
-        void execute(Clone clone);
+        void Execute(Clone clone);
     }
 }

@@ -20,13 +20,13 @@ namespace SKBStarWarsTestCS
             learnPrograms.Add("basic");
         }
          
-        public void AddProgram(Command command, String program)
+        public void AddProgram(ICommand command, String program)
         {
             learnPrograms.Add(program);
             history.Add(command);
         }
 
-        public void AddCommand(Command command)
+        public void AddCommand(ICommand command)
         {
             history.Add(command);
         }
